@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Avella brand palette — derived from logo & reception signage */
+  --color-pine: #16382a; /* deepest green: footer, top bar */
+  --color-forest: #1d5b3c; /* primary brand green (logo) */
+  --color-fern: #2e7350; /* lighter green for hovers */
+  --color-gold: #a9862c; /* antique gold, AA-safe on cream */
+  --color-gold-soft: #c9a227; /* bright gold for rules & icons */
+  --color-cream: #faf7f0; /* page background */
+  --color-ivory: #f2ecdf; /* alternate section background */
+  --color-sage: #a9bca4; /* decorative, from wall art */
+  --color-blush: #d3a29d; /* decorative, from wall art */
+  --color-ink: #23332b; /* body text, deep green-gray */
+
+  --font-display: var(--font-cormorant);
+  --font-sans: var(--font-figtree);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-forest);
+  color: var(--color-cream);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
