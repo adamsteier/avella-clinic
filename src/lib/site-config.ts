@@ -137,7 +137,7 @@ export type Doctor = {
   bio: string;
 };
 
-// PLACEHOLDER physicians — replace with the real care team.
+// PLACEHOLDER names/bios — swap for the real care team's details.
 export const doctors: Doctor[] = [
   {
     name: "Dr. Maya Chen",
@@ -146,21 +146,27 @@ export const doctors: Doctor[] = [
     bio: "Dr. Chen has practiced comprehensive family medicine for over a decade and believes lasting health starts with truly listening to patients.",
   },
   {
-    name: "Dr. James Whitfield",
-    credentials: "MD, FRCPC",
-    focus: "Internal & Senior's Health",
-    bio: "Dr. Whitfield focuses on healthy aging and complex chronic care, helping older adults stay active and independent.",
+    name: "Dr. Hannah Kim",
+    credentials: "MD, CCFP (COE)",
+    focus: "Senior's Health",
+    bio: "Dr. Kim focuses on healthy aging and complex chronic care, helping older adults stay active and independent.",
   },
   {
-    name: "Dr. Sofia Rossi",
+    name: "Dr. Grace Liu",
+    credentials: "MD, CCFP",
+    focus: "Preventive Care",
+    bio: "Dr. Liu champions screening and early intervention, working with patients on practical plans that keep small concerns from becoming big ones.",
+  },
+  {
+    name: "Dr. Leila Farhadi",
     credentials: "MD, CCFP",
     focus: "Women's Health",
-    bio: "Dr. Rossi provides warm, confidential women's health care, from routine screening to contraception and menopause support.",
+    bio: "Dr. Farhadi provides warm, confidential women's health care, from routine screening to contraception and menopause support.",
   },
   {
-    name: "Dr. Daniel Okafor",
+    name: "Dr. Priya Sharma",
     credentials: "MD, FAAP",
     focus: "Children's Health",
-    bio: "Dr. Okafor has a gift for putting young patients at ease and partners closely with parents at every stage of childhood.",
+    bio: "Dr. Sharma has a gift for putting young patients at ease and partners closely with parents at every stage of childhood.",
   },
 ];
