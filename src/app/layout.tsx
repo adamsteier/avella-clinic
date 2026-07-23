@@ -18,7 +18,7 @@ const figtree = Figtree({
 
 export const metadata: Metadata = {
   title: {
-    default: `${site.name} — ${site.tagline}`,
+    default: `${site.name} | ${site.tagline}`,
     template: `%s | ${site.name}`,
   },
   description: `${site.name} in Vancouver offers family medicine, senior's health, preventive care, women's health, and children's health. ${site.motto}`,

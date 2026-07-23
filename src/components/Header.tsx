@@ -26,7 +26,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50">
       <div className="bg-pine text-cream/90">
-        <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-2 text-sm sm:px-6">
+        <div className="mx-auto flex max-w-6xl items-center justify-end gap-4 px-4 py-2 text-sm sm:justify-between sm:px-6">
           <p className="hidden sm:block">
             {site.address.suite} – {site.address.street}, {site.address.city}
           </p>

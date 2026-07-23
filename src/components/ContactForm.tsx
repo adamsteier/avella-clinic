@@ -14,7 +14,7 @@ export function ContactForm() {
 
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault();
-    const subject = encodeURIComponent(`Appointment request — ${name}`);
+    const subject = encodeURIComponent(`Appointment request from ${name}`);
     const body = encodeURIComponent(
       `Name: ${name}\nPhone: ${phone}\n\n${message}`
     );

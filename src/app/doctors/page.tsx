@@ -9,7 +9,7 @@ import { LeafMotif } from "@/components/LeafMotif";
 export const metadata: Metadata = {
   title: "Our Doctors",
   description:
-    "Meet the physicians of Avella Medical Clinic — experienced, attentive doctors in family medicine, senior's health, women's health, and children's health.",
+    "Meet the physicians of Avella Medical Clinic: experienced, attentive doctors in family medicine, senior's health, women's health, and children's health.",
 };
 
 export default function DoctorsPage() {

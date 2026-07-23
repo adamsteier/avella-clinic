@@ -35,7 +35,7 @@ export default function VideosPage() {
       <PageHero
         eyebrow="Videos"
         title="Health education, on your schedule"
-        lede="Short, practical videos from our physicians. Our first series is in production — here's what's coming."
+        lede="Short, practical videos from our physicians. Our first series is in production, and here is what's coming."
       />
 
       <section>

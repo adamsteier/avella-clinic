@@ -17,7 +17,7 @@ export default function ServicesPage() {
       <PageHero
         eyebrow="Our Services"
         title="Five areas of focus, one standard of care"
-        lede="Every service below is delivered by physicians who take the time to know you — in clinic or by same-day telehealth."
+        lede="Every service below is delivered by physicians who take the time to know you, in clinic or by same-day telehealth."
       />
 
       {services.map((service, index) => (

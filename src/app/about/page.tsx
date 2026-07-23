@@ -9,7 +9,7 @@ import { ServiceIcon } from "@/components/ServiceIcon";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Learn about Avella Medical Clinic — our story, our values, and the calm, welcoming space we built for patients in Vancouver.",
+    "Learn about Avella Medical Clinic: our story, our values, and the space we built for patients in Vancouver.",
 };
 
 const values = [
@@ -36,7 +36,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow="About Avella"
         title="Medicine with a human pace"
-        lede={`${site.tagline} That isn't a slogan on our wall — it's the standard for every visit.`}
+        lede={`${site.tagline} That is the promise on our reception wall, and the standard we hold ourselves to at every visit.`}
       />
 
       <section>
@@ -50,10 +50,10 @@ export default function AboutPage() {
             <div className="mt-6 space-y-4 leading-relaxed text-ink/75">
               <p>
                 Our physicians deliberately keep unhurried schedules so
-                appointments never feel like a queue. The clinic itself — warm
-                wood, soft light, botanical art in sage and blush — was
-                designed to lower your heart rate the moment you walk through
-                the frosted glass doors of Suite 602.
+                appointments never feel like a queue. The clinic itself, with
+                its warm wood, soft light, and botanical art in sage and
+                blush, was designed to put you at ease the moment you walk
+                through the frosted glass doors of Suite 602.
               </p>
               <p>
                 Whether you visit in person or connect by telehealth, you can

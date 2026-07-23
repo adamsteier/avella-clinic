@@ -23,7 +23,7 @@ export default function HomePage() {
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink/75">
               Avella Medical Clinic provides warm, unhurried family health care
-              for every generation — in person at our Vancouver clinic or by
+              for every generation, in person at our Vancouver clinic or by
               same-day telehealth appointment.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -51,10 +51,10 @@ export default function HomePage() {
               className="absolute -bottom-4 -right-4 h-full w-full rounded-t-full border border-gold-soft/60"
             />
             <Image
-              src="/images/hero-reception.png"
-              alt="The welcoming reception area at Avella Medical Clinic"
-              width={1536}
-              height={864}
+              src="/images/clinic-front.jpeg"
+              alt="The Avella Medical Clinic reception with the botanical brand mural behind the front desk"
+              width={1434}
+              height={1086}
               priority
               className="relative aspect-[4/5] w-full rounded-t-full object-cover shadow-lg"
             />
@@ -161,8 +161,8 @@ export default function HomePage() {
           <div className="order-2 lg:order-1">
             <SectionHeading
               eyebrow="Our Clinic"
-              title="A calmer kind of clinic"
-              lede="Tucked into Suite 602, Avella was designed to feel less like a waiting room and more like a welcome. Natural materials, soft light, and a team that knows your name."
+              title="Visit us in Suite 602"
+              lede="The clinic has warm wood, soft light, and the same leaf artwork you'll see in our logo. Look for the frosted glass doors on the sixth floor at Grandview Avenue."
             />
             <Link
               href="/about"
