@@ -30,6 +30,10 @@ export const nav = [
   { label: "Our Doctors", href: "/doctors" },
   { label: "Videos", href: "/videos" },
   { label: "Contact Us", href: "/contact" },
+  // Temporary style previews for the doctors to compare looks.
+  { label: "Style 2", href: "/style-2" },
+  { label: "Style 3", href: "/style-3" },
+  { label: "Style 4", href: "/style-4" },
 ];
 
 export type Service = {
